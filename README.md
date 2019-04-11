@@ -50,6 +50,37 @@ The application/service can be accessed on the following URL:
 - http://localhost:8080/v1/actors
 - http://localhost:8080/v1/actors?limit=&{limit}&offset=&{offset}
 - http://localhost:8080/v1/actors/&{actorId}
+
+Sample Movie object:
+```json
+{
+        "imdb_id": 1,
+        "title": "movie X",
+        "description": "Great movie",
+        "year": 2012,
+        "movieActors": [
+            2,
+            3,
+            4
+        ]
+    }
+```
+
+Sample Actor object:
+
+```json
+{
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Novak",
+        "born": "1991-10-10",
+        "actorMovies": [
+            9,
+            8,
+            10
+        ]
+    }
+```
 							
 
 To shut down the example simply stop the processes in the foreground.
