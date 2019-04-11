@@ -25,7 +25,6 @@ The example uses maven to build and run the microservices.
 1. Build the sample using maven:
 
     ```bash
-    $ cd jpa
     $ mvn clean package
     ```
 
