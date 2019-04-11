@@ -42,13 +42,14 @@ The example uses maven to build and run the microservices.
     ```
     
 The application/service can be accessed on the following URL:
-* JAX-RS REST resource page - http://localhost:8080/v1/movies
-			    - http://localhost:8080/v1/movies/search?searchText=movie
-			    - http://localhost:8080/v1/movies?limit=&{limit}&offset=&{offset}
-			    - http://localhost:8080/v1/movies/&{imdbId}
-			    - http://localhost:8080/v1/actors
-			    - http://localhost:8080/v1/actors?limit=&{limit}&offset=&{offset}
-			    - http://localhost:8080/v1/actors/&{actorId}
+* JAX-RS REST resource page 
+- http://localhost:8080/v1/movies
+- http://localhost:8080/v1/movies/search?searchText=movie
+- http://localhost:8080/v1/movies?limit=&{limit}&offset=&{offset}
+- http://localhost:8080/v1/movies/&{imdbId}
+- http://localhost:8080/v1/actors
+- http://localhost:8080/v1/actors?limit=&{limit}&offset=&{offset}
+- http://localhost:8080/v1/actors/&{actorId}
 							
 
 To shut down the example simply stop the processes in the foreground.
